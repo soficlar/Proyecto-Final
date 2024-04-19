@@ -1,0 +1,259 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #919191;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+section {
+    padding: 50px;
+}
+
+footer {
+    background-color: #4c4c4c;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+.redes-sociales {
+    font-size: 24px;
+}
+
+#inicio {
+    background-color: rgb(208, 208, 208);
+}
+
+#nosotros {
+    background-color: #eee;
+    padding: 50px; 
+    text-align: center; 
+}
+
+.nosotros-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#nosotros h1 {
+    margin-bottom: 20px; 
+}
+
+#nosotros p {
+    margin-bottom: 20px; 
+    line-height: 1.6; 
+}
+
+
+.scroll-imagenes {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.scroll-imagenes img {
+    width: 400px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+#consultas, #cirugias {
+    width: 50%; 
+    height: 200px; 
+    background-size: cover; 
+    background-position: center; 
+    display: inline-block; 
+    margin-bottom: 20px; 
+    box-sizing: border-box; 
+}
+
+#consultas {
+    background-image: url(https://sami.vet/wp-content/uploads/2021/08/blog_sami_-estas-respetando-el-tiempo-de-tus-pacientes-en-tu-clinica-veterinaria.png);
+    float: right; 
+}
+
+#vacunacion, #limpieza_dental {
+    width: 50%; 
+    height: 200px;
+    background-size: cover; 
+    background-position: center; 
+    display: inline-block; 
+    margin-bottom: 20px; 
+    box-sizing: border-box;
+}
+
+#vacunacion {
+    background-image: url(https://www.respetmascotas.com/posts/easset_upload_file73516_1037841_e.jpg);
+    float: left; 
+}
+
+#limpieza_dental {
+    background-image: url(https://clicandpost.com/wp-content/uploads/2022/10/limpieza-bucal-en-gatos.webp);
+    float: left; 
+}
+
+#cirugias {
+    background-image: url(https://www.animalhome.com.mx/wp-content/uploads/2023/05/urgencias-veterinarias-mexico-animal-home-jpg.webp);
+    float: right; 
+}
+
+
+#pagos {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+#pagos h1 {
+    text-align: center;
+}
+
+#pagos p {
+     text-align: center;
+}
+
+#payment-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #414141;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #a9a9a9;
+}
+
+
+#contacto {
+    background-color: #3e3e3e;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contacto-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contacto-container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contacto-container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+#servicios {
+    background-color: #919191;
+    padding: 50px;
+    overflow: auto;
+}
+
+#Promociones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.promotion-item {
+    text-align: center;
+}
+
+.promotion-item a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #cccccc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.promotion-item a:hover {
+    background-color: #8d8d8d;
+}
+
+.promotion-item img {
+    width: 200px; 
+}
+
+.promotion-item p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+#redes-sociales {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.social-icons {
+    margin-top: 20px;
+    text-align: center; 
+}
+
+.social-icon {
+    display: inline-block;
+    font-size: 30px;
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #3ad29f; 
+}
