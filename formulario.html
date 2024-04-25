@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cita</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <h1>Agendar Cita</h1>
+    <form action="#" method="POST">
+        <label for="tipo-cita">Tipo de cita:</label><br>
+        <select id="tipo-cita" name="tipo-cita">
+            <option value="baño">Cita de baño</option>
+            <option value="consulta">Cita de consulta médica</option>
+        </select><br><br>
+        
+        <label for="fecha-cita">Fecha de la cita:</label><br>
+        <input type="date" id="fecha-cita" name="fecha-cita" required><br><br>
+        
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
+        
+        <label for="celular">Número de celular:</label><br>
+        <input type="tel" id="celular" name="celular" pattern="[0-9]{10}" required><br><br>
+        
+        <label for="nombre">Nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="mensaje">Mensaje (opcional):</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Agendar Cita">
+    </form>
+</body>
+</html>
